@@ -70,6 +70,48 @@ NAME : VARSHA.G
 REG NO : 212222230166
 DEPT : AI-DS
 
+const int trigPin=10;
+const int echoPin=9;
+int red=7;
+int green=6;
+long duration;
+float distance;
+
+void setup()
+{
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  pinMode(red, OUTPUT);
+  pinMode(green, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  digitalWrite(trigPin, LOW);
+  delay(20); 
+  digitalWrite(trigPin, HIGH);
+  delay(20); 
+  digitalWrite(trigPin, LOW);
+  duration=pulseIn(echoPin,HIGH);
+  distance=duration*0.034/2;
+  Serial.print(distance);
+  Serial.println("cms");
+  if(distance > 5)
+  {
+    digitalWrite(red, HIGH);
+    delay(200);
+    digitalWrite(red, LOW);
+    delay(200);
+  }
+  else
+  {
+    digitalWrite(green, HIGH);
+    delay(200);
+    digitalWrite(green, LOW);
+    delay(200);
+  }
+}
 
 
 
