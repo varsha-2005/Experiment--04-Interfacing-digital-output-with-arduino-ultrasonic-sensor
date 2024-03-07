@@ -39,6 +39,16 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 
 ![image](https://user-images.githubusercontent.com/36288975/166430594-5adb4ca9-5a42-4781-a7e6-7236b3766a85.png)
 
+## CIRCUIT DIAGRAM:  
+
+![Screenshot 2024-03-07 111915](https://github.com/varsha-2005/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/119288183/c2eb6475-5756-4162-a70c-35d7413eab0a)
+
+## SCHEMATIC REPRESENTATION:
+
+![Screenshot 2024-03-07 112400](https://github.com/varsha-2005/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/119288183/9aeaf722-d596-4d1d-9d2e-93efc69ba715)
+
+
+
 
 
 ### PROCEDURE:
@@ -55,29 +65,27 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 
 
 ### PROGRAM 
+```
+NAME : VARSHA.G
+REG NO : 212222230166
+DEPT : AI-DS
 
 
 
 
+```
+### Distance vs measurement table 		
 
+![Screenshot 2024-03-07 112042](https://github.com/varsha-2005/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/119288183/92af28e3-f656-43ea-96cb-d1d293bbfba6)
 
-### Distance vs measurement table 
+![Screenshot 2024-03-07 111812](https://github.com/varsha-2005/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/119288183/0ad07eb9-e529-466c-9011-f84c85e57c29)
 
-			
- 
-			
-			
-			
-
-![image](https://user-images.githubusercontent.com/36288975/190135379-52ebacd5-ccd5-460f-a4cd-4d0ad1d9b179.png)
-
-			
-			
-			
-			
 			
 			Average error = sum/ number of readings 
- 
+   Average error = (0.06+0.1+0.13+0.55+0.79)/5=0.366
+   
+ ### RESULT: 
+Thus we got the output To interface an ultrasonic pair and measure the distance in centimeters , calculate the error
 
 
 
@@ -85,8 +93,6 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 
 
 
-
-### RESULTS
 
 
 
